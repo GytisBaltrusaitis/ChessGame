@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.chessboard{
+    margin-left: 0%;
+    margin-right: 25%;
+    border: 5px solid;
+    margin-top: 2%;
+    position: fixed;
+}
+.rowEight{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowSeven{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowSix{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowFive{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowFour{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowThree{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowTwo{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+.rowOne{
+    height: 563%;
+    width: 563%;
+    display: flex;
+    gap: 0px;
+}
+button{
+    background-color: rgb(216, 216, 216, 0.952);
+    height: 100px;
+    width: 100px;
+    border: 0px solid;
+    border-radius: 0px;
+    padding: 0%;
+}
+button:hover{
+    background-color: rgb(180, 180, 180, 0.952);
+}
+#even{
+    background-color: rgba(112, 1, 23, 0.952);
+}
+#even:hover{
+    background-color: rgb(102, 0, 20, 0.952);
+}
+.gentelman_left{
+    padding-top: 10%;
+    padding-left: 40%;
+}
+.gentelman_right{
+    height: 75%;
+    padding-top: 20%;
+    padding-left: 55%;
+}

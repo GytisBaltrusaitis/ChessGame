@@ -1,50 +1,15 @@
-# React + TypeScript + Vite
+# About the project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+When you install this project and run it, you will be able to play a chess game offline.
+It could be used playing with a friend on the same PC or for trying new variations ant strategies.
 
-Currently, two official plugins are available:
+It can move pieces accordingly, track pieces positions, avoid running into check, switch sides for players,
+and game ends when opponent king is taken, it does not have a draw or stalemate, so you will probably need to 
+press f5 or refresh the page. Also if the player is new, after incorrect piece move it show where piece could possibly go.
+Project includes castling, but no en passant.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Downloading the project
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+If you want to download the project and test it you firstly will need to download node.js, install react on it.
+Then you can open cmd go to this project path on your computer and run the command: npm run dev, then open given url
+and play chess.
